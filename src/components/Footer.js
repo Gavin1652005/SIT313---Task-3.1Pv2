@@ -22,7 +22,6 @@ const Footer = () => {
       <Container>
         <Grid stackable divided="vertically">
           <Grid.Row columns={3}>
-            {/* Explore */}
             <Grid.Column>
               <Header as="h4" content="Explore" />
               <List link>
@@ -33,7 +32,6 @@ const Footer = () => {
               </List>
             </Grid.Column>
 
-            {/* Support */}
             <Grid.Column>
               <Header as="h4" content="Support" />
               <List link>
@@ -44,7 +42,6 @@ const Footer = () => {
               </List>
             </Grid.Column>
 
-            {/* Stay Connected */}
             <Grid.Column>
               <Header as="h4" content="Stay Connected" />
               <List horizontal>
